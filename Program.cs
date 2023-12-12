@@ -17,7 +17,7 @@ string[]words = new string[size];
 for (int i = 0; i < size; i++)
 {
     Console.WriteLine($"Введите {i + 1} элемент:");
-    words[i] = Console.ReadLine();
+    words[i] = Console.ReadLine()!;
 }
 
 void PrintArray(string[] array)
